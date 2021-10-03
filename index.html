@@ -90,10 +90,56 @@
                     <p><div> Meeting was started at 9am and lasting for 30min. </div>
                         <div> The time for next meeting has not decided yet. </div>
                         <div> Minutes submitted by: <em> Alice Roberts </em></div>
-                        <div> Approved by: <em> Lawrence Porter </em></div><br>
+                        <div> Approved by: <em> Lawrence Porter </em></div>
                     </p>
                 </div>
-        </section>
+            </section>
+            <section>
+                <div class="login">
+                    <h4>Log In to Modify:</h4>
+                    <form>
+                        <fieldset>
+                            <label>User Name:</label>
+                            <input type="text"><br><br>
+                            <label>Password:</label>
+                            <input type="text"><br><br>
+                            <input type="submit" value="Log In">
+                        <fieldset>
+                    </form>
+            </section>
+            <section>
+                <div class="poll">
+                    <h4>Poll:</h4>
+                    <p>Please vote a day and a time for next meeting.</p>
+                    <form>
+                        <input list="browsers">
+                        <datalist id="browsers">
+                            <option value="Monday">Monday</option>
+                            <option value="Tuesday">Tuesday</option>
+                            <option value="Wednesday">Wednesday</option>
+                            <option value="Thursday">Thursday</option>
+                            <option value="Friday">Friday</option>
+                        </datalist>
+                        <select>
+                            <option value="9">9:00</option>
+                            <option value="10">10:00</option>
+                            <option value="13">13:00</option>
+                            <option value="14">14:00</option>
+                            <option value="15">15:00</option>
+                        </select>
+                        <input type="submit">
+                    </form>
+                </div>
+            </section>
+            <section>
+                <div class="opinion">
+                    <h4>Opinions:</h4>
+                    <form>
+                        <textarea rows="8" cols="100"></textarea>
+                    </form>
+                </div>
+            </section>
+            <button type="button" onclick="alert('Boom! The World will end in 10 min')">Click Me!</button>
         </footer>
     </body>
 </html>
