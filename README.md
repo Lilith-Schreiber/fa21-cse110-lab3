@@ -1,1 +1,1 @@
-There is the URL to the webpage: [https://lilith-schreiber.github.io/Lab2/](https://lilith-schreiber.github.io/Lab2/)
+There is the URL to the webpage: [https://lilith-schreiber.github.io/fa21-cse110-lab3/](https://lilith-schreiber.github.io/fa21-cse110-lab3/)
