@@ -1,69 +1,181 @@
+/*This is the CSS file for Lab 3 index.html*/
 body {
-    background-color: lightblue;
+    background-color: rgb(173, 216, 230);
 }
 
+/*header*/
 h1 {
     font-size: 50px;
     text-align: center;
 }
 
+/*subtitle*/
 h2 {
     font-size: 2em;
     text-align: center;
 }
 
+/*date*/
 h3 {
-    color: ghostwhite;
+    color: #F8F8FF;
     font-size: 2rem;
     text-align: right;
 }
 
+/*small titles*/
 h4 {
     font-size: 6mm;
 }
 
+/*unorder list of members*/
 ul {
     font-size: 1pc;
 }
 
+/*order list of agenda*/
 ol {
     width: 1vm;
-}
-
-details {
-    display: block;
+    height: 1cm;
 }
 
 p {
     padding-left: 20px;
+    min-width: 300px;
+    max-width: 500px;
 }
 
 nav {
     padding: 0px 0px 20px 20px;
 }
 
+/*attachments*/
+details {
+    display: block;
+}
+
+summary:active {
+    color: hsl(240, 100%, 50%);
+}
+
+img {
+    position: static;
+    top: 20px;
+    left: 20px;
+}
+
+a:hover {
+    color: plum;
+}
+
+video {
+    position: relative;
+    top: 5px;
+    bottom: 40px;
+    left: 20px;
+}
+
+audio {
+    position: relative;
+    top: 10px;
+    bottom: 20px;
+    left: 20px;
+}
+
+/*signatures*/
+em {
+    font-family: 'Italianno', cursive;
+    font-size: 25px;
+}
+
+/*meeting dates*/
 .date {
     margin-right: 10px;
     text-decoration: line-through;
+    display: none;
 }
 
+/*leader in the group*/
 .leader {
     color: blue;
     margin-left: 25px;
 }
 
+/*mentor of the group*/
 .mentor {
     color: navy;
     margin-left: 0px 0px 0px 35px;
 }
 
+/*poll*/
 .selector {
     padding-left: 20px;
     border: 1px groove grey;
 }
 
+/*opinion*/
 .writing {
     border-width: 1px;
     border-style: groove;
     border-color: grey;
+}
+
+/*flag of France*/
+.france {
+    width: 150px;
+    height: 90px;
+    border: 1px solid none;
+    display: flex;
+}
+
+.france #red {
+    -ms-flex: 1;
+    flex: 1;
+    background-color: red;
+    color: red;
+}
+
+.france #blue {
+    -ms-flex: 1;
+    flex: 1;
+    background-color: blue;
+    color: blue;
+}
+
+.france #white {
+    -ms-flex: 1;
+    flex: 1;
+    background-color: ghostwhite;
+    color: ghostwhite;
+}
+
+/*flag of Belgium*/
+.belgium {
+    display: grid;
+    grid: 90px / 50px 50px 50px;
+    grid-gap: 0px;
+    padding: 0px;
+}
+
+.belgium #black {
+    background-color: black;
+    color: black;
+    text-align: left;
+    padding: 20px 0;
+    font-size: 10px;
+}
+
+.belgium #yellow {
+    background-color: yellow;
+    color: yellow;
+    text-align: left;
+    padding: 20px 0;
+    font-size: 10px;
+}
+
+.belgium #reddish {
+    background-color: red;
+    color: red;
+    text-align: left;
+    padding: 20px 0;
+    font-size: 10px;
 }
