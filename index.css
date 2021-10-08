@@ -1,5 +1,5 @@
 /*This is the CSS file for Lab 3 index.html*/
-body {
+* {
     background-color: rgb(173, 216, 230);
 }
 
@@ -28,14 +28,15 @@ h4 {
 }
 
 /*unorder list of members*/
-ul {
+h4 ~ ul {
     font-size: 1pc;
 }
 
 /*order list of agenda*/
-ol {
+h4 + ol {
     width: 1vm;
     height: 1cm;
+    background-color: yellow;
 }
 
 p {
@@ -87,8 +88,12 @@ em {
     font-size: 25px;
 }
 
+input, datalist, select, option, textarea {
+    background-color: white;
+}
+
 /*meeting dates*/
-.date {
+span.date {
     margin-right: 10px;
     text-decoration: line-through;
     display: none;
@@ -120,28 +125,28 @@ em {
 }
 
 /*flag of France*/
-.france {
+#france {
     width: 150px;
     height: 90px;
     border: 1px solid none;
     display: flex;
 }
 
-.france #red {
+#france > #red {
     -ms-flex: 1;
     flex: 1;
     background-color: red;
     color: red;
 }
 
-.france #blue {
+#france #blue {
     -ms-flex: 1;
     flex: 1;
     background-color: blue;
     color: blue;
 }
 
-.france #white {
+#france #white {
     -ms-flex: 1;
     flex: 1;
     background-color: ghostwhite;
@@ -156,7 +161,7 @@ em {
     padding: 0px;
 }
 
-.belgium #black {
+.belgium [target] {
     background-color: black;
     color: black;
     text-align: left;
