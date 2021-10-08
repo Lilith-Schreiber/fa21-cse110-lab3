@@ -3,6 +3,13 @@
     background-color: rgb(173, 216, 230);
 }
 
+/*responsiveness*/
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: blanchedalmond;
+    }
+}
+
 /*header*/
 h1 {
     font-size: 50px;
@@ -101,7 +108,7 @@ span.date {
 
 /*leader in the group*/
 .leader {
-    color: blue;
+    color: hsl(240, 100%, 50%);
     margin-left: 25px;
 }
 
@@ -142,15 +149,15 @@ span.date {
 #france #blue {
     -ms-flex: 1;
     flex: 1;
-    background-color: blue;
-    color: blue;
+    background-color: hsl(240, 100%, 50%);
+    color: hsl(240, 100%, 50%);
 }
 
 #france #white {
     -ms-flex: 1;
     flex: 1;
-    background-color: ghostwhite;
-    color: ghostwhite;
+    background-color: #F8F8FF;
+    color: #F8F8FF;
 }
 
 /*flag of Belgium*/
