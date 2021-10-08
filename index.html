@@ -5,6 +5,7 @@
         <meta charset="utf-8">
         <title>Meeting Minutes</title>
         <link rel="icon" href="meeting.jpg">
+        <link rel="stylesheet" href="index.css">
     </head>
     
     <body>
@@ -12,7 +13,7 @@
             <header>
                 <h1>SWE Meeting I</h1>
                 <h2>--project set-up--</h2>
-                <h3><i> Oct 1, 2021 </i></h3>
+                <h3><i><span class="date"> Oct 1, 2021 </span> Oct 8, 2021 </i></h3>
             </header>
 
             <section>
@@ -20,7 +21,7 @@
                     <h4>Attendence:</h4>
                     
                     <ul>
-                        <li><b> Iris Heninger <span> Project Leader </span> </b></li>
+                        <li><b> Iris Heninger <span class="leader"> Project Leader </span> </b></li>
                         <li>Elsa Andrews</li>
                         <li>Jason Black</li>
                         <li>Darwin Green</li>
@@ -38,7 +39,7 @@
                 <div class="absence">
                     <h4>Absence:</h4>
                     <ul>
-                        <li><strong> Karen Weber <span> Mentor </span> </strong></li>
+                        <li><strong> Karen Weber <span class="mentor"> Mentor </span> </strong></li>
                     </ul>    
                 </div>
             </section>
@@ -116,7 +117,7 @@
                 <div class="poll">
                     <h4>Poll:</h4>
                     <p>Please vote a day and a time for next meeting.</p>
-                    <form>
+                    <form class="selector">
                         <input list="browsers">
                         <datalist id="browsers">
                             <option value="Monday">Monday</option>
@@ -140,7 +141,7 @@
             <section>
                 <div class="opinion">
                     <h4>Opinions:</h4>
-                    <form>
+                    <form class="writing">
                         <textarea rows="8" cols="100"></textarea>
                     </form>
                 </div>

@@ -1,0 +1,69 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+}
+
+h3 {
+    color: ghostwhite;
+    font-size: 2rem;
+    text-align: right;
+}
+
+h4 {
+    font-size: 6mm;
+}
+
+ul {
+    font-size: 1pc;
+}
+
+ol {
+    width: 1vm;
+}
+
+details {
+    display: block;
+}
+
+p {
+    padding-left: 20px;
+}
+
+nav {
+    padding: 0px 0px 20px 20px;
+}
+
+.date {
+    margin-right: 10px;
+    text-decoration: line-through;
+}
+
+.leader {
+    color: blue;
+    margin-left: 25px;
+}
+
+.mentor {
+    color: navy;
+    margin-left: 0px 0px 0px 35px;
+}
+
+.selector {
+    padding-left: 20px;
+    border: 1px groove grey;
+}
+
+.writing {
+    border-width: 1px;
+    border-style: groove;
+    border-color: grey;
+}
